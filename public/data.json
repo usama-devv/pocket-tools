@@ -1,0 +1,585 @@
+ [
+  {
+    "id": 1,
+    "title": "Instagram Filters",
+    "slug": "instagram-filters",
+    "description": "Apply Instagram filters to your photos either by uploading image from a url",
+    "image":"instagramFilters.svg",
+    "category": "social-media-tools"
+
+  },
+  {
+    "id": 2,
+    "title": "Instagram Post Generator",
+    "slug": "instagram-post-generator ",
+    "description": "Create instagram posts as if they were real , download them as an image and make jokes to your friends ",
+    "image":"instagramPostGenerator.svg",
+    "category": "social-media-tools"
+  },
+  {
+    "id": 3,
+    "title": "Instagram Photo Downloader",
+    "slug": "instagram-photo-downloader",
+    "description": "Create fake tweets and download them as images to share with your friends",
+   "image":"instagramPhotoDownloader.svg",
+    "category": "social-media-tools"
+  },
+  {
+    "id": 4,
+    "title": "Tweet Generator",
+    "slug": "tweet-generator",
+    "description": "Create fake tweets and download them as images to share with your friends",
+    "image":"tweetGenerator.svg",
+    "category": "social-media-tools"
+  },
+  {
+    "id": 5,
+    "title": "Tweet to Image Converter",
+    "slug": "tweet-to-image-converter",
+    "description": "Create fake tweets and download them as images to share with your friends",
+   "image":"tweetToImageConverter.svg",
+    "category": "social-media-tools"
+  },
+  {
+    "id": 6,
+    "title": "Twitter Ad Revenue Generator",
+    "slug": "twitter-ad-revenue-generator",
+    "description": "Create fake tweets and download them as images to share with your friends",
+   "image":"twitterAdRevenueGenerator.svg",
+    "category": "social-media-tools"
+  },
+  {
+    "id": 7,
+    "title": "Youtube Thumbnail Grabber",
+    "slug": "youtube-thumbnail-grabber",
+    "description": "Create fake tweets and download them as images to share with your friends",
+    "image":"youtubeThumbnailGrabber.svg",
+    "category": "social-media-tools"
+  },
+  {
+    "id": 8,
+    "title": "Vimeo Thumbnail Grabber",
+    "slug": "vimeo-thumbnail-grabber",
+    "description": "Create fake tweets and download them as images to share with your friends",
+   "image":"vimeoThumbnailGrabber.svg",
+    "category": "social-media-tools"
+  },
+  {
+    "id": 9,
+    "title": "Open Graph Meta Generator",
+    "slug": "open-graph-meta-generator",
+    "description": "Create fake tweets and download them as images to share with your friends",
+       "icon": "FaFilter",
+    "image":"openGraphMetaGenerator.svg",
+    "category": "social-media-tools"
+  },
+  {
+    "id": 10,
+    "title": "Case Converter",
+    "slug": "case-converter",
+    "description": "Convert your text or string to uppercase, lowercase, title case & sentence case",
+   "image":"caseConverter.svg",
+    "category": "text-tools"
+  },
+  {
+    "id": 11,
+    "title": "Lorem Ipsum Generator",
+    "slug": "lorem-ipsum-generator",
+    "description": "Create your placeholder texts with desired number of paragraphs and properties",
+   "image":"loremIpsumGenerator.svg",
+    "category": "text-tools"
+  },
+  {
+    "id": 12,
+    "title": "Letter Counter",
+    "slug": "letter-counter",
+    "description": "Count letters, words and sentences in a text and analyze this numbers with common limits",
+   "image":"letterCounter.svg",
+    "category": "text-tools"
+  },
+  {
+    "id": 13,
+    "title": "Text to Handwriting converter",
+    "slug": "text-to-handwriting-converter",
+    "description": "Convert your text into handwriting with desired paper type and ink color and download as PDF",
+   "image":"textToHandwritingConverter.svg",
+    "category": "text-tools"
+  },
+  {
+    "id": 14,
+    "title": "Bionic Reading Converter",
+    "slug": "bionic-reading-converter",
+    "description": "Convert your texts into Bionic Reading mode to read them faster than before",
+   "image":"bionicReadingConverter.svg",
+    "category": "text-tools"
+  },
+  {
+    "id": 15,
+    "title": "Multiple Whitespace Remover",
+    "slug": "multiple-whitespace-remover",
+    "description": "Remove multiple whitespaces and line breaks in a text and clear unwanted characters",
+   "image":"multipleWhitespaceRemover.svg",
+    "category": "text-tools"
+  },
+
+  {
+    "id": 16,
+    "title": "Google Fonts Pair Finder",
+    "slug": "google-fonts-pair-finder",
+    "description": "Find font pairs which looks cool together on your designs, pages or apps as heading and body font",
+   "image":"googleFontsPairFinder.svg",
+    "category": "text-tools"
+  },
+  {
+    "id": 17,
+    "title": "Image Cropper",
+    "slug": "image-Cropper",
+    "description": "Crop unwanted parts of images and download desired part of the image as a new file",
+   "image":"imageCropper.svg",
+    "category": "image-tools"
+  },
+  {
+    "id": 18,
+    "title": "Image Resizer",
+    "slug": "image-resizer",
+    "description": "Resize any image to desired width and height either by protecting aspect ratio or not",
+   "image":"imageResizer.svg",
+    "category": "image-tools"
+  },
+  {
+    "id": 19,
+    "title": "Image Filters",
+    "slug": "image-filters",
+    "description": "Apply different filters to images and change color balance and distribution of the it",
+   "image":"imageFilters.svg",
+    "category": "image-tools"
+  },
+  {
+    "id": 20,
+    "title": "Image Average Color Finder",
+    "slug": "image-average-color-finder",
+    "description": "Calculate average and dominant color of an image by ignoring transparency",
+   "image":"imageAverageColorFinder.svg",
+    "category": "image-tools"
+  },
+  {
+    "id": 21,
+    "title": "Image Color Extractor",
+    "slug": "image-color-extractor",
+    "description": "Extract all colors from an image and get color codes and details of this colors as a list",
+   "image":"imageColorExtractor.svg",
+    "category": "image-tools"
+  },
+  {
+    "id": 22,
+    "title": "Image Color Picker",
+    "slug": "image-color-picker",
+    "description": "Pick any color from an image with an eyedropper and get detailed info about the color you picked",
+   "image":"imageColorPicker.svg",
+    "category": "image-tools"
+  },
+  {
+    "id": 23,
+    "title": "SVG Blob Generator",
+    "slug": "svg-blob-generator",
+    "description": "Generate random SVG blobs with desired complexity and get SVG as code or file",
+   "image":"svgBlobGenerator.svg",
+    "category": "image-tools"
+  },
+  {
+    "id": 24,
+    "title": "SVG Pattern Generator",
+    "slug": "svg-pattern-generator",
+    "description": "Generate SVG patterns with different shapes and download it as SVG or an image file",
+   "image":"svgPatternGenerator.svg",
+    "category": "image-tools"
+  },
+  {
+    "id": 25,
+    "title": "Photo Censor",
+    "slug": "photo-censor",
+    "description": "Censor photos and hide faces by pixellating/blurring them or by putting a black bar",
+   "image":"photoCensor.svg",
+    "category": "image-tools"
+  },
+  {
+    "id": 26,
+    "title": "SVG to PNG Converter",
+    "slug": "svg-to-png-converter",
+    "description": "Convert any SVG file into PNG format image and scale it to desired size by preserving aspect ratio",
+   "image":"svgToPngConverter.svg",
+    "category": "image-tools"
+  },
+  {
+    "id": 27,
+    "title": "SVG Stroke to Fill Converter",
+    "slug": "svg-stroke-to-fill-converter",
+    "description": "Convert SVG strokes to fills to ensure consistent rendering across different platforms and browsers",
+   "image":"svgStrokeToFillConverter.svg",
+    "category": "image-tools"
+  },
+  {
+    "id": 28,
+    "title": "Image to Base64 Converter",
+    "slug": "image-to-base64-converter",
+    "description": "Convert images into Base64 string for different image formats like PNG, JPEG, GIF, SVG",
+   "image":"imageToBase64Converter.svg",
+    "category": "image-tools"
+  },
+  {
+    "id": 29,
+    "title": "Image Caption Generator",
+    "slug": "image-caption-generator",
+    "description": "Generate instant image captions powered by AI (Artificial Intelligence) analysis",
+   "image":"imageCaptionGenerator.svg",
+    "category": "image-tools"
+  },
+  {
+    "id": 30,
+    "title": "Scanned PDF Converter",
+    "slug": "scanned-pdf-converter",
+    "description": "Convert PDF files into scanned PDFs without using a real scanner",
+   "image":"scannedPdfConverter.svg",
+    "category": "image-tools"
+  },
+ 
+  {
+    "id": 31,
+    "title": "CSS Loader Generator",
+    "slug": "css-loader-generator",
+    "description": "Generate fancy CSS loaders by specifying the type, color and size of the loading indicator",
+    "image": "cssLoaderGenerator.svg",
+    "category": "css-tools"
+  },
+  {
+    "id": 32,
+    "title": "CSS Checkbox Generator",
+    "slug": "css-checkbox-generator",
+    "description": "Generate CSS checkboxes with different styles by customizing color and size",
+    "image": "cssCheckboxGenerator.svg",
+    "category": "css-tools"
+  },
+  {
+    "id": 33,
+    "title": "CSS Switch Generator",
+    "slug": "css-switch-generator",
+    "description": "Generate beautiful CSS switches and toggles without JavaScript",
+    "image": "cssSwitchGenerator.svg",
+    "category": "css-tools"
+  },
+  {
+    "id": 34,
+    "title": "CSS Clip Path Generator",
+    "slug": "css-clip-path-generator",
+    "description": "Generate CSS clip path with different patterns and use clip-path property",
+    "image": "cssClipPathGenerator.svg",
+    "category": "css-tools"
+  },
+  {
+    "id": 35,
+    "title": "CSS Background Pattern Generator",
+    "slug": "css-background-pattern-generator",
+    "description": "Generate beautiful CSS-only background patterns and use it in your projects",
+    "image": "cssBackgroundPatternGenerator.svg",
+    "category": "css-tools"
+  },
+  {
+    "id": 36,
+    "title": "CSS Cubic Bezier Generator",
+    "slug": "css-cubic-bezier-generator",
+    "description": "Generate CSS cubic bezier easing functions by previewing animation",
+    "image": "cssCubicBezierGenerator.svg",
+    "category": "css-tools"
+  },
+  {
+    "id": 37,
+    "title": "CSS Glassmorphism Generator",
+    "slug": "css-glassmorphism-generator",
+    "description": "Generate CSS glassmorphism frosted glass effect using background blur",
+    "image": "cssGlassmorphismGenerator.svg",
+    "category": "css-tools"
+  },
+  {
+    "id": 38,
+    "title": "CSS Text Glitch Effect Generator",
+    "slug": "css-text-glitch-effect-generator",
+    "description": "Generate CSS text glitch effect and fancy text animations using pure CSS",
+    "image": "cssTextGlitchEffectGenerator.svg",
+    "category": "css-tools"
+  },
+  {
+    "id": 39,
+    "title": "CSS Gradient Generator",
+    "slug": "css-gradient-generator",
+    "description": "Generate beautiful CSS gradients by using presets or customizing your own",
+    "image": "cssGradientGenerator.svg",
+    "category": "css-tools"
+  },
+  {
+    "id": 40,
+    "title": "CSS Triangle Generator",
+    "slug": "css-triangle-generator",
+    "description": "Generate CSS code for triangular shapes with desired width height angle and color",
+    "image": "cssTriangleGenerator.svg",
+    "category": "css-tools"
+  },
+  {
+    "id": 41,
+    "title": "CSS Box Shadow Generator",
+    "slug": "css-box-shadow-generator",
+    "description": "Generate CSS code for box shadows with live preview for box circle or header",
+    "image": "cssBoxShadowGenerator.svg",
+    "category": "css-tools"
+  },
+  {
+    "id": 42,
+    "title": "CSS Border Radius Generator",
+    "slug": "css-border-radius-generator",
+    "description": "Generate advanced CSS border radius to shape your HTML elements individually",
+    "image": "cssBorderRadiusGenerator.svg",
+    "category": "css-tools"
+  },
+  
+  {
+    "id": 43,
+    "title": "Code to Image Converter",
+    "slug": "code-to-image-converter",
+    "description": "Convert your codes to fancy images and share with your friends or colleagues",
+    "image": "codeToImageConverter.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 44,
+    "title": "URL Slug Generator",
+    "slug": "url-slug-generator",
+    "description": "Generate SEO friendly slugs from titles or any other strings for webpages or blog posts",
+    "image": "urlSlugGenerator.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 45,
+    "title": "React Native Shadow Generator",
+    "slug": "react-native-shadow-generator",
+    "description": "Generate fancy box shadows in React Native for both iOS and Android",
+    "image": "reactNativeShadowGenerator.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 46,
+    "title": "Base64 Encoder Decoder",
+    "slug": "base64-encoder-decoder",
+    "description": "Encode your strings to Base64 or decode strings encoded with Base64",
+    "image": "base64EncoderDecoder.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 47,
+    "title": "HTML Encoder Decoder",
+    "slug": "html-encoder-decoder",
+    "description": "Encode or decode your HTML by replacing special characters into equivalent escape forms",
+    "image": "htmlEncoderDecoder.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 48,
+    "title": "URL Encoder Decoder",
+    "slug": "url-encoder-decoder",
+    "description": "Encode your URL by escaping characters that may break navigation and decode it",
+    "image": "urlEncoderDecoder.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 49,
+    "title": "HTML Minifier",
+    "slug": "html-minifier",
+    "description": "Minify your HTML code and copy the minified code or download as html file",
+    "image": "htmlMinifier.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 50,
+    "title": "CSS Minifier",
+    "slug": "css-minifier",
+    "description": "Minify your CSS code and copy the minified code or download as css file",
+    "image": "cssMinifier.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 51,
+    "title": "JavaScript Minifier",
+    "slug": "javascript-minifier",
+    "description": "Minify your JavaScript code and copy the minified code or download as js file",
+    "image": "javascriptMinifier.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 52,
+    "title": "HTML Formatter",
+    "slug": "html-formatter",
+    "description": "Format your HTML code with proper indentation and either copy or download it",
+    "image": "htmlFormatter.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 53,
+    "title": "CSS Formatter",
+    "slug": "css-formatter",
+    "description": "Format your CSS code and copy the beautified code or download as css file",
+    "image": "cssFormatter.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 54,
+    "title": "JavaScript Formatter",
+    "slug": "javascript-formatter",
+    "description": "Format and beautify your JavaScript code and copy or download it as a file",
+    "image": "javascriptFormatter.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 55,
+    "title": "MD5 Encrypt Decrypt",
+    "slug": "md5-encrypt-decrypt",
+    "description": "Encrypt strings to MD5 hashes or decrypt MD5 hashes by iterating combinations",
+    "image": "md5EncryptDecrypt.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 56,
+    "title": "SHA1 Encrypt Decrypt",
+    "slug": "sha1-encrypt-decrypt",
+    "description": "Encrypt strings to SHA1 hashes or decrypt SHA1 hashes by iterating combinations",
+    "image": "sha1EncryptDecrypt.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 57,
+    "title": "SHA224 Encrypt Decrypt",
+    "slug": "sha224-encrypt-decrypt",
+    "description": "Encrypt strings to SHA224 hashes or decrypt SHA224 hashes by iterating combinations",
+    "image": "sha224EncryptDecrypt.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 58,
+    "title": "SHA256 Encrypt Decrypt",
+    "slug": "sha256-encrypt-decrypt",
+    "description": "Encrypt strings to SHA256 hashes or decrypt SHA256 hashes by iterating combinations",
+    "image": "sha256EncryptDecrypt.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 59,
+    "title": "SHA384 Encrypt Decrypt",
+    "slug": "sha384-encrypt-decrypt",
+    "description": "Encrypt strings to SHA384 hashes or decrypt SHA384 hashes by iterating combinations",
+    "image": "sha384EncryptDecrypt.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 60,
+    "title": "SHA512 Encrypt Decrypt",
+    "slug": "sha512-encrypt-decrypt",
+    "description": "Encrypt strings to SHA512 hashes or decrypt SHA512 hashes by iterating combinations",
+    "image": "sha512EncryptDecrypt.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 61,
+    "title": "JWT Encoder Decoder",
+    "slug": "jwt-encoder-decoder",
+    "description": "Encode, decode, verify or debug JWT (JSON Web Token) for HSxxx, RSxxx & ESxxx algorithms",
+    "image": "jwtEncoderDecoder.svg",
+    "category": "coding-tools"
+  },
+  {
+    "id": 62,
+    "title": "JSON Tree Viewer",
+    "slug": "json-tree-viewer",
+    "description": "View your JSON data in tree view, walk through all branches and update nodes if you need to",
+    "image": "jsonTreeViewer.svg",
+    "category": "coding-tools"
+  },
+  
+  {
+    "id": 63,
+    "title": "AI Color Palette Generator",
+    "slug": "ai-color-palette-generator",
+    "description": "Craft perfect color palettes effortlessly with AI driven creativity",
+    "image": "aiColorPaletteGenerator.svg",
+    "category": "color-tools"
+  },
+  {
+    "id": 64,
+    "title": "HEX to RGBA Converter",
+    "slug": "hex-to-rgba-converter",
+    "description": "Convert HEX color codes to RGBA equivalents and see all details of a color",
+    "image": "hexToRgbaConverter.svg",
+    "category": "color-tools"
+  },
+  {
+    "id": 65,
+    "title": "RGBA to HEX Converter",
+    "slug": "rgba-to-hex-converter",
+    "description": "Convert RGBA color codes to alpha supported 6 or 8 digit HEX equivalents",
+    "image": "rgbaToHexConverter.svg",
+    "category": "color-tools"
+  },
+  {
+    "id": 66,
+    "title": "Color Shades Generator",
+    "slug": "color-shades-generator",
+    "description": "Get all shades of a color by setting up steps for darken lighten saturation and desaturation",
+    "image": "colorShadesGenerator.svg",
+    "category": "color-tools"
+  },
+  {
+    "id": 67,
+    "title": "Color Mixer",
+    "slug": "color-mixer",
+    "description": "Mix two colors and get color codes for intermediate colors from two to ten steps",
+    "image": "colorMixer.svg",
+    "category": "color-tools"
+  },
+  {
+    "id": 68,
+    "title": "Strong Random Password Generator",
+    "slug": "strong-random-password-generator",
+    "description": "Generate strong random passwords and check its strength with password strength meter",
+    "image": "strongRandomPasswordGenerator.svg",
+    "category": "Miscellaneous-tools"
+  },
+  {
+    "id": 69,
+    "title": "List Randomizer",
+    "slug": "list-randomizer",
+    "description": "Randomize your lists, make lotteries, draw campaigns or select random people from a group",
+    "image": "listRandomizer.svg",
+    "category": "Miscellaneous-tools"
+  },
+  {
+    "id": 70,
+    "title": "QR Code Generator",
+    "slug": "qr-code-generator",
+    "description": "Generate QR code for your links or texts easily and download them as an image file",
+    "image": "qrCodeGenerator.svg",
+    "category": "Miscellaneous-tools"
+  },
+  {
+    "id": 71,
+    "title": " BarCode Generator",
+    "slug": "barcode-generator",
+    "description": "Generate barcodes for different international standardizations with desired sizes",
+    "image": "barcodeGenerator.svg",
+    "category": "Miscellaneous-tools"
+  },
+  {
+    "id": 72,
+    "title": "Fake IBAN Generator",
+    "slug": "fake-iban-generator",
+    "description": "Generate fake IBANs for different countries",
+    "image": "fakeIbanGenerator.svg",
+    "category": "Miscellaneous-tools"
+  }
+]
+
