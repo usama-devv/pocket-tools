@@ -16,7 +16,7 @@ import svgStrokeToFillConverter from "../../images/detail-page-images/svgStrokeT
 import imageToBase64Converter from "../../images/detail-page-images/imageToBase64Converter.svg";
 import imageCaptionGenerator from "../../images/detail-page-images/imageCaptionGenerator.svg";
 import scannedPdfConverter from "../../images/detail-page-images/scannedPdfConverter.svg";
-import caseconverter from "../../images/detail-page-images/caseconverter.svg";
+import caseconverter from "../../images/detail-page-images/caseConverter.svg";
 import loremIpsumGenerator from "../../images/detail-page-images/loremIpsumGenerator.svg";
 import letterCounter from "../../images/detail-page-images/letterCounter.svg";
 import textToHandwritingConverter from "../../images/detail-page-images/textToHandwritingConverter.svg";
