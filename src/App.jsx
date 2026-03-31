@@ -9,7 +9,7 @@ import Header from "./landing-page-components/header/Header";
 import Footer from "./landing-page-components/footer/Footer";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import ErrorBoundary from "./components/ErrorBoundary.jsx";
-import ShareModal from "./components/Modal/ShareModal.jsx";
+import ShareModal from "./components/modal/ShareModal.jsx";
 
 /* Context */
 import ApiContextProvider from "./contexts/api-context-provider.jsx";
