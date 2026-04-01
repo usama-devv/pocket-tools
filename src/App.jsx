@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect, Suspense, lazy } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { Analytics } from '@vercel/analytics/react';
 
 import "./App.css";
 
@@ -352,6 +353,7 @@ function App() {
     <ErrorBoundary>
       <ApiContextProvider>
         <BrowserRouter>
+          <Analytics />
           <Toaster />
           <ShareModal />
           <ScrollToTop />
