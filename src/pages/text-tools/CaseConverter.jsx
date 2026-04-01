@@ -5,6 +5,7 @@ import { RotateCcw, Copy, Check, ChevronDown, Globe } from 'lucide-react';
 import CommentsSection from '../../components/CommentsSection';
 import BuyMeACoffee from '../../components/BuyMeACoffee';
 import BrowserExtensionBanner from '../../components/BrowserExtensionBanner';
+import SimilarTools from '../../components/SimilarTools';
 
 const CaseConverter = () => {
     const [text, setText] = useState('');
@@ -146,6 +147,7 @@ const CaseConverter = () => {
                 <div className="flex flex-col space-y-0">
                     <CommentsSection toolId="case-converter" />
                     <BuyMeACoffee />
+                    <SimilarTools />
                     <BrowserExtensionBanner />
 
                     <div className="max-w-5xl mx-auto py-2 px-0 w-full">
