@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect, Suspense, lazy } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 import "./App.css";
 
@@ -354,6 +355,7 @@ function App() {
       <ApiContextProvider>
         <BrowserRouter>
           <Analytics />
+          <SpeedInsights />
           <Toaster />
           <ShareModal />
           <ScrollToTop />
