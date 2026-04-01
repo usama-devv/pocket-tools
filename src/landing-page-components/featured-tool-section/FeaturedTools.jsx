@@ -2,6 +2,16 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 // Import all available images from detail-page-images
+//Text Tools
+import caseConverter from "../../images/detail-page-images/caseConverter.svg";
+import loremIpsumGenerator from "../../images/detail-page-images/loremIpsumGenerator.svg";
+import letterCounter from "../../images/detail-page-images/letterCounter.svg";
+import textToHandwritingConverter from "../../images/detail-page-images/textToHandwritingConverter.svg";
+import bionicReadingConverter from "../../images/detail-page-images/bionicReadingConverter.svg";
+import multipleWhitespaceRemover from "../../images/detail-page-images/multipleWhitespaceRemover.svg";
+import googleFontsPairFinder from "../../images/detail-page-images/googleFontsPairFinder.svg";
+
+//Image Tools
 import imageResizer from "../../images/detail-page-images/imageResizer.svg";
 import imageCropper from "../../images/detail-page-images/imageCropper.svg";
 import imageFilters from "../../images/detail-page-images/imageFilters.svg";
@@ -16,13 +26,8 @@ import svgStrokeToFillConverter from "../../images/detail-page-images/svgStrokeT
 import imageToBase64Converter from "../../images/detail-page-images/imageToBase64Converter.svg";
 import imageCaptionGenerator from "../../images/detail-page-images/imageCaptionGenerator.svg";
 import scannedPdfConverter from "../../images/detail-page-images/scannedPdfConverter.svg";
-import caseconverter from "../../images/detail-page-images/caseConverter.svg";
-import loremIpsumGenerator from "../../images/detail-page-images/loremIpsumGenerator.svg";
-import letterCounter from "../../images/detail-page-images/letterCounter.svg";
-import textToHandwritingConverter from "../../images/detail-page-images/textToHandwritingConverter.svg";
-import bionicReadingConverter from "../../images/detail-page-images/bionicReadingConverter.svg";
-import multipleWhitespaceRemover from "../../images/detail-page-images/multipleWhitespaceRemover.svg";
-import googleFontsPairFinder from "../../images/detail-page-images/googleFontsPairFinder.svg";
+
+// CSS Tools
 import cssLoaderGenerator from "../../images/detail-page-images/cssLoaderGenerator.svg";
 import cssCheckboxGenerator from "../../images/detail-page-images/cssCheckboxGenerator.svg";
 import cssSwitchGenerator from "../../images/detail-page-images/cssSwitchGenerator.svg";
@@ -35,52 +40,71 @@ import cssGradientGenerator from "../../images/detail-page-images/cssGradientGen
 import cssTriangleGenerator from "../../images/detail-page-images/cssTriangleGenerator.svg";
 import cssBoxShadowGenerator from "../../images/detail-page-images/cssBoxShadowGenerator.svg";
 import cssBorderRadiusGenerator from "../../images/detail-page-images/cssBorderRadiusGenerator.svg";
+
+// Coding Tools
 import codeToImageConverter from "../../images/detail-page-images/codeToImageConverter.svg";
 import urlSlugGenerator from "../../images/detail-page-images/urlSlugGenerator.svg";
 import reactNativeShadowGenerator from "../../images/detail-page-images/reactNativeShadowGenerator.svg";
 import base64EncoderDecoder from "../../images/detail-page-images/base64EncoderDecoder.svg";
 import htmlEncoderDecoder from "../../images/detail-page-images/htmlEncoderDecoder.svg";
 import urlEncoderDecoder from "../../images/detail-page-images/urlEncoderDecoder.svg";
-import aiColorPaletteGenerator from "../../images/detail-page-images/aiColorPaletteGenerator.svg";
-import barcodeGenerator from "../../images/detail-page-images/barcodeGenerator.svg";
-import colorMixer from "../../images/detail-page-images/colorMixer.svg";
-import colorShadesGenerator from "../../images/detail-page-images/colorShadesGenerator.svg";
-import cssFormatter from "../../images/detail-page-images/cssFormatter.svg";
-import fakeIbanGenerator from "../../images/detail-page-images/fakeIbanGenerator.svg";
-import hexToRgbaConverter from "../../images/detail-page-images/hexToRgbaConverter.svg";
 import htmlFormatter from "../../images/detail-page-images/htmlFormatter.svg";
-import htmlMinifier from "../../images/detail-page-images/htmlMinifier.svg";
-import instagramFilters from "../../images/detail-page-images/instagramFilters.svg";
-import instagramPhotoDownloader from "../../images/detail-page-images/instagramPhotoDownloader.svg";
-import instagramPostGenerator from "../../images/detail-page-images/instagramPostGenerator.svg";
+import cssFormatter from "../../images/detail-page-images/cssFormatter.svg";
 import javascriptFormatter from "../../images/detail-page-images/javascriptFormatter.svg";
+import htmlMinifier from "../../images/detail-page-images/htmlMinifier.svg";
+import cssMinifier from "../../images/detail-page-images/cssMinifier.svg";
 import javascriptMinifier from "../../images/detail-page-images/javascriptMinifier.svg";
 import jsonTreeViewer from "../../images/detail-page-images/jsonTreeViewer.svg";
 import jwtEncoderDecoder from "../../images/detail-page-images/jwtEncoderDecoder.svg";
-import listRandomizer from "../../images/detail-page-images/listRandomizer.svg";
 import md5EncryptDecrypt from "../../images/detail-page-images/md5EncryptDecrypt.svg";
-import openGraphMetaGenerator from "../../images/detail-page-images/openGraphMetaGenerator.svg";
-import qrCodeGenerator from "../../images/detail-page-images/qrCodeGenerator.svg";
-import rgbaToHexConverter from "../../images/detail-page-images/rgbaToHexConverter.svg";
 import sha1EncryptDecrypt from "../../images/detail-page-images/sha1EncryptDecrypt.svg";
 import sha224EncryptDecrypt from "../../images/detail-page-images/sha224EncryptDecrypt.svg";
 import sha256EncryptDecrypt from "../../images/detail-page-images/sha256EncryptDecrypt.svg";
 import sha384EncryptDecrypt from "../../images/detail-page-images/sha384EncryptDecrypt.svg";
 import sha512EncryptDecrypt from "../../images/detail-page-images/sha512EncryptDecrypt.svg";
-import strongRandomPasswordGenerator from "../../images/detail-page-images/strongRandomPasswordGenerator.svg";
+
+// Color Tools
+import aiColorPaletteGenerator from "../../images/detail-page-images/aiColorPaletteGenerator.svg";
+import rgbaToHexConverter from "../../images/detail-page-images/rgbaToHexConverter.svg";
+import hexToRgbaConverter from "../../images/detail-page-images/hexToRgbaConverter.svg";
+import colorMixer from "../../images/detail-page-images/colorMixer.svg";
+import colorShadesGenerator from "../../images/detail-page-images/colorShadesGenerator.svg";
+
+// Social Media Tools
+import instagramFilters from "../../images/detail-page-images/instagramFilters.svg";
+import instagramPhotoDownloader from "../../images/detail-page-images/instagramPhotoDownloader.svg";
+import instagramPostGenerator from "../../images/detail-page-images/instagramPostGenerator.svg";
 import tweetGenerator from "../../images/detail-page-images/tweetGenerator.svg";
 import tweetToImageConverter from "../../images/detail-page-images/tweetToImageConverter.svg";
 import twitterAdRevenueGenerator from "../../images/detail-page-images/twitterAdRevenueGenerator.svg";
 import vimeoThumbnailGrabber from "../../images/detail-page-images/vimeoThumbnailGrabber.svg";
 import youtubeThumbnailGrabber from "../../images/detail-page-images/youtubeThumbnailGrabber.svg";
+import openGraphMetaGenerator from "../../images/detail-page-images/openGraphMetaGenerator.svg";
+
+// Miscellaneous Tools
+import fakeIbanGenerator from "../../images/detail-page-images/fakeIbanGenerator.svg";
+import listRandomizer from "../../images/detail-page-images/listRandomizer.svg";
+import qrCodeGenerator from "../../images/detail-page-images/qrCodeGenerator.svg";
+import barcodeGenerator from "../../images/detail-page-images/barcodeGenerator.svg";
+import strongRandomPasswordGenerator from "../../images/detail-page-images/strongRandomPasswordGenerator.svg";
+
 
 // Create image mapping object
 const imageMap = {
+   // Text Tools
+  "caseconverter.svg": caseConverter,
+  "loremipsumgenerator.svg": loremIpsumGenerator,
+  "lettercounter.svg": letterCounter,
+  "texttohandwritingconverter.svg": textToHandwritingConverter,
+  "bionicreadingconverter.svg": bionicReadingConverter,
+  "multiplewhitespaceremover.svg": multipleWhitespaceRemover,
+  "googlefontspairfinder.svg": googleFontsPairFinder,
+
   // Image Tools
   "imageresizer.svg": imageResizer,
   "imagecropper.svg": imageCropper,
   "imagefilters.svg": imageFilters,
-  "imageaveragefinder.svg": imageAverageColorFinder,
+  "imageaveragecolorfinder.svg": imageAverageColorFinder,
   "imagecolorextractor.svg": imageColorExtractor,
   "imagecolorpicker.svg": imageColorPicker,
   "svgblobgenerator.svg": svgBlobGenerator,
@@ -92,14 +116,6 @@ const imageMap = {
   "imagecaptiongenerator.svg": imageCaptionGenerator,
   "scannedpdfconverter.svg": scannedPdfConverter,
 
-  // Text Tools
-  "caseconverter.svg": caseconverter,
-  "loremgenerator.svg": loremIpsumGenerator,
-  "lettercounter.svg": letterCounter,
-  "texttohandwriting.svg": textToHandwritingConverter,
-  "bionicconverter.svg": bionicReadingConverter,
-  "whitespaceemover.svg": multipleWhitespaceRemover,
-  "googlefonts.svg": googleFontsPairFinder,
 
   // CSS Tools
   "cssloadergenerator.svg": cssLoaderGenerator,
@@ -114,8 +130,6 @@ const imageMap = {
   "csstrianglegenerator.svg": cssTriangleGenerator,
   "cssboxshadowgenerator.svg": cssBoxShadowGenerator,
   "cssborderradiusgenerator.svg": cssBorderRadiusGenerator,
-  "cssformatter.svg": cssFormatter,
-  "cssminifier.svg": cssFormatter,
 
   // Coding Tools
   "codetoimageconverter.svg": codeToImageConverter,
@@ -126,6 +140,8 @@ const imageMap = {
   "urlencoderdecoder.svg": urlEncoderDecoder,
   "htmlminifier.svg": htmlMinifier,
   "htmlformatter.svg": htmlFormatter,
+  "cssformatter.svg": cssFormatter,
+  "cssminifier.svg": cssMinifier,
   "javascriptformatter.svg": javascriptFormatter,
   "javascriptminifier.svg": javascriptMinifier,
   "md5encryptdecrypt.svg": md5EncryptDecrypt,
@@ -150,10 +166,10 @@ const imageMap = {
   "instagramphotodownloader.svg": instagramPhotoDownloader,
   "tweetgenerator.svg": tweetGenerator,
   "tweettoimageconverter.svg": tweetToImageConverter,
-  "twitteradrevenue.svg": twitterAdRevenueGenerator,
-  "youtubethumbnail.svg": youtubeThumbnailGrabber,
-  "vimeothumbnail.svg": vimeoThumbnailGrabber,
-  "opengraphmeta.svg": openGraphMetaGenerator,
+  "twitteradrevenuegenerator.svg": twitterAdRevenueGenerator,
+  "youtubethumbnailgrabber.svg": youtubeThumbnailGrabber,
+  "vimeothumbnailgrabber.svg": vimeoThumbnailGrabber,
+  "opengraphmetagenerator.svg": openGraphMetaGenerator,
 
   // Miscellaneous Tools
   "strongrandompasswordgenerator.svg": strongRandomPasswordGenerator,
