@@ -3,29 +3,17 @@ import { openMail, updateMailContent } from "../../redux/slices/contactSlice";
 import { FaGithub, FaLinkedin, FaTools, FaLayerGroup, FaBolt, FaUserShield, FaChartLine } from "react-icons/fa";
 import { FiChevronRight } from "react-icons/fi";
 import BuyMeACoffee from "../../components/BuyMeACoffee";
-import zain from "../../assets/zain.jpeg";
-import zohaib from "../../assets/zohaib.jpeg";
-import huzaifa from "../../assets/huzaifa.jpeg";
-import bilal from "../../assets/bilal.jpeg";
 
 const TEAM = {
   leadership: [
     {
-      name: "Jahanzaib Ali",
-      role: "Lead Developer",
+      name: "Usama Masood",
+      role: "Software Engineer",
       bio: "Specializing in high-performance web architecture and digital utility optimization.",
-      image: "https://ca.slack-edge.com/T03A7U0BX41-U09MCF1CG3G-006b07202d88-512",
+      image: "https://ca.slack-edge.com/T03A7U0BX41-U058VJCNFHQ-be97d7bfc798-512",
       socials: { github: "#", linkedin: "#", twitter: "#" }
     }
   ],
-  members: [
-    { name: "Usama Masood", role: "Software Engineer", image: "https://ca.slack-edge.com/T03A7U0BX41-U058VJCNFHQ-be97d7bfc798-512", socials: { linkedin: "#", github: "#" } },
-    { name: "Zain Ul Hassan", role: "Software Developer", image: zain, socials: { linkedin: "#", github: "#" } },
-    { name: "Zohaib Hassan", role: "Software Developer", image: zohaib, socials: { github: "https://github.com/CodeWithZebi" } },
-    { name: "Huzaifa Bashir", role: "Software Developer", image: huzaifa, socials: { github: "https://github.com/huzaifabashir1727", linkedin: "https://www.linkedin.com/in/huzaifabashir/" } },
-    { name: "Bilal Sajid", role: "Software Developer", image: bilal, socials: { github: "#", linkedin: "#" } },
-    { name: "Faraz Ahmad", role: "Software Developer", image: "https://ca.slack-edge.com/T03A7U0BX41-U080DHZ82A0-24641cffc0f5-512", socials: { github: "#", linkedin: "#" } },
-  ]
 };
 
 function About() {
@@ -114,7 +102,7 @@ function About() {
       {/* 4. TEAM SECTION: Professional Hierarchy */}
       <section className="py-24 px-6 max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-black text-[#111827] mb-4">Meet the Engineers</h2>
+          <h2 className="text-4xl font-black text-[#111827] mb-4">Meet the Engineer</h2>
           <p className="text-[#6B7280] font-bold uppercase tracking-[0.2em] text-xs">The collective force driving digital innovation.</p>
         </div>
 
@@ -133,43 +121,6 @@ function About() {
                   <a href={lead.socials.github} className="p-2.5 bg-[#F3F4F6] text-[#111827] rounded-xl hover:bg-[#3B82F6] hover:text-white transition-all"><FaGithub /></a>
                   <a href={lead.socials.linkedin} className="p-2.5 bg-[#F3F4F6] text-[#111827] rounded-xl hover:bg-[#3B82F6] hover:text-white transition-all"><FaLinkedin /></a>
                 </div>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        {/* Members Grid */}
-        <div className="flex flex-wrap justify-center items-start gap-8 md:gap-8">
-          {TEAM.members.map((m, i) => (
-            <div key={i} className="text-center group w-[calc(50%-1rem)] md:w-58">
-
-              {/* Profile Image Container */}
-              <div className="w-28 h-28 mx-auto mb-5 rounded-3xl border border-[#E5E7EB] bg-white shadow-sm transition-all duration-500 ease-in-out relative overflow-hidden group-hover:-translate-y-3 group-hover:border-[#3B82F6]/40 group-hover:shadow-[0_20px_25px_-5px_rgba(59,130,246,0.2)]">
-                <img
-                  src={m.image}
-                  alt={m.name}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-              </div>
-
-              {/* Name & Role */}
-              <h4 className="font-bold text-[#111827]">{m.name}</h4>
-              <p className="text-[#6B7280] text-[11px] font-bold uppercase tracking-wider mb-3">
-                {m.role}
-              </p>
-
-              {/* Socials */}
-              <div className="flex justify-center gap-3 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                {m.socials.github && (
-                  <a href={m.socials.github} target="_blank" rel="noreferrer" className="text-[#6B7280] hover:text-[#3B82F6]">
-                    <FaGithub size={16} />
-                  </a>
-                )}
-                {m.socials.linkedin && (
-                  <a href={m.socials.linkedin} target="_blank" rel="noreferrer" className="text-[#6B7280] hover:text-[#3B82F6]">
-                    <FaLinkedin size={16} />
-                  </a>
-                )}
               </div>
             </div>
           ))}
